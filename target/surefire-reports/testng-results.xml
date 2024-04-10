@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-10T00:40:55 ICT" name="Surefire suite" finished-at="2024-04-10T00:40:55 ICT" duration-ms="29">
+    <groups>
+    </groups>
+    <test started-at="2024-04-10T00:40:55 ICT" name="Surefire test" finished-at="2024-04-10T00:40:55 ICT" duration-ms="29">
+      <class name="com.polypro.dao.ChuyenDeDAONGTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="setUpClass" finished-at="2024-04-10T00:40:55 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="setUpMethod" finished-at="2024-04-10T00:40:55 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testDelete()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="testDelete" finished-at="2024-04-10T00:40:55 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="tearDownMethod" finished-at="2024-04-10T00:40:55 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testFindById()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="testFindById" finished-at="2024-04-10T00:40:55 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindById -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="setUpMethod" finished-at="2024-04-10T00:40:55 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="tearDownMethod" finished-at="2024-04-10T00:40:55 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testInsert()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="testInsert" finished-at="2024-04-10T00:40:55 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="tearDownMethod" finished-at="2024-04-10T00:40:55 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="setUpMethod" finished-at="2024-04-10T00:40:55 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="tearDownMethod" finished-at="2024-04-10T00:40:55 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="setUpMethod" finished-at="2024-04-10T00:40:55 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testSelect()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="testSelect" finished-at="2024-04-10T00:40:55 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelect -->
+        <test-method signature="testUpdate()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="testUpdate" finished-at="2024-04-10T00:40:55 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="setUpMethod" finished-at="2024-04-10T00:40:55 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="tearDownMethod" finished-at="2024-04-10T00:40:55 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.polypro.dao.ChuyenDeDAONGTest@290dbf45]" started-at="2024-04-10T00:40:55 ICT" name="tearDownClass" finished-at="2024-04-10T00:40:55 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.polypro.dao.ChuyenDeDAONGTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.polypro.model.ChuyenDeNGTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.293 s <<< FAILURE! - in com.polypro.model.ChuyenDeNGTest
+com.polypro.model.ChuyenDeNGTest.testToString  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected [ChuyenDe{MaCD=null, TenCD=null, HocPhi=0.0, ThoiLuong=0, Hinh=null, MoTa=null}] but found [null]
+	at com.polypro.model.ChuyenDeNGTest.testToString(ChuyenDeNGTest.java:49)
+

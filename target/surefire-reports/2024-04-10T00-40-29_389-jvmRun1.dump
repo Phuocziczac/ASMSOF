@@ -1,0 +1,51 @@
+# Created at 2024-04-10T00:40:30.119
+org.testng.TestNGException: 
+Error creating object factory: class com.polypro.dao.KhoaHocDAONGTest
+	at org.testng.internal.TestNGClassFinder.createObjectFactory(TestNGClassFinder.java:243)
+	at org.testng.internal.TestNGClassFinder.<init>(TestNGClassFinder.java:65)
+	at org.testng.TestRunner.initMethods(TestRunner.java:439)
+	at org.testng.TestRunner.init(TestRunner.java:338)
+	at org.testng.TestRunner.init(TestRunner.java:291)
+	at org.testng.TestRunner.<init>(TestRunner.java:179)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:613)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:178)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:112)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1275)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1251)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1100)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.TestNGClassFinder.createObjectFactory(TestNGClassFinder.java:239)
+	... 21 more
+Caused by: java.lang.ExceptionInInitializerError
+	at com.polypro.dao.KhoaHocDAONGTest.getObjectFactory(KhoaHocDAONGTest.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 23 more
+Caused by: java.lang.RuntimeException: java.io.IOException: Can not attach to current VM
+	at org.powermock.modules.agent.AgentLoader.attachToThisVM(AgentLoader.java:140)
+	at org.powermock.modules.agent.AgentLoader.loadAgent(AgentLoader.java:87)
+	at org.powermock.modules.agent.AgentInitialization.initializeAccordingToJDKVersion(AgentInitialization.java:40)
+	at org.powermock.modules.agent.PowerMockAgent.initializeIfNeeded(PowerMockAgent.java:91)
+	at org.powermock.modules.agent.PowerMockAgent.initializeIfPossible(PowerMockAgent.java:105)
+	at org.powermock.modules.testng.PowerMockObjectFactory.<clinit>(PowerMockObjectFactory.java:36)
+	... 25 more
+Caused by: java.io.IOException: Can not attach to current VM
+	at jdk.attach/sun.tools.attach.HotSpotVirtualMachine.<init>(HotSpotVirtualMachine.java:80)
+	at jdk.attach/sun.tools.attach.VirtualMachineImpl.<init>(VirtualMachineImpl.java:48)
+	at jdk.attach/sun.tools.attach.AttachProviderImpl.attachVirtualMachine(AttachProviderImpl.java:59)
+	at jdk.attach/com.sun.tools.attach.VirtualMachine.attach(VirtualMachine.java:207)
+	at org.powermock.modules.agent.AgentLoader.attachToThisVM(AgentLoader.java:136)
+	... 30 more
+
+
